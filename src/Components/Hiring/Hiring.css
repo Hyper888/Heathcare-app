@@ -1,0 +1,59 @@
+.hiring-heading > h1 {
+    font-size: 3rem;
+    color: #10274F;
+    font-family: "GilroyBold";
+}
+.hiring-heading {
+    padding: 5rem 13rem;
+    background-color: #E5F0FF;
+}
+.hiring-container {
+    display: flex;
+    padding: 5rem 10rem;
+}
+.filter-sidebar {
+    width: 30%;
+    border: 1px solid #FFFFFF;
+    border-radius: 12px 0px 0px 12px;
+    background-color: #FFFFFF;
+    box-shadow: #10274F29 0px 0px 24px;
+    display: flex;
+    flex-direction:column;
+    padding-top: 4rem;
+    border-right: 2px solid gainsboro;
+}
+
+/* Card Section */
+
+.hiring-card-section {
+    flex: 1;
+    box-shadow: #10274F29 0px 0px 24px;
+    border-radius: 0px 12px 12px 0px;
+    border-left: none;
+    padding: 5rem 4rem;
+}
+.card-section-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.sort-by {
+    display: flex;
+}
+.sort-by > p {
+    font-size: 1.6rem;
+    color: #6A6A73;
+    font-family: "NunitoRegular";
+    margin-right: 1.2rem;
+}
+.sort-options {
+    border: none;
+    font-size: 1.6rem;
+    color: #1C75BC;
+    font-family: "NunitoBold";
+}
+.pagi-icons {
+    font-size: 2.5rem;
+    color: #C2C9D4;
+    display: flex;
+}
